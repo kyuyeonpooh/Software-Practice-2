@@ -14,15 +14,14 @@
 #include "convert.h"
 #include <unistd.h>
 
-int main(int argc, char** argv)
-{
+int main(int argc, char** argv){
+	
 	int ret = 0;
     char error[] = "This shall never happen.\n";
 	
 	ret = convert(argv[1]);
 	
-    switch (ret)
-    {
+    switch (ret){
         case 0:
             break;
         case E_INPUT_NOT_EXIST:
@@ -44,4 +43,5 @@ int main(int argc, char** argv)
     }
 
 	return ret;
+	
 }
