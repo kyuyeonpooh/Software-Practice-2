@@ -12,9 +12,6 @@
 #include "string_sw.h"
 #include <stdlib.h>
 
-#define isspace(ch) ((ch) == ' ' || (ch) == '\t' || (ch) == '\n' || \
-					 (ch) == '\v' || (ch) == '\f' || (ch) == '\r')
-
 /* Conversions string to numeric formats */
 int atoi2 (const char *str){
 

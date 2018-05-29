@@ -17,7 +17,7 @@
 int main(int argc, char** argv){
 	
 	int ret = 0;
-    char error[] = "This shall never happen.\n";
+	char error[] = "This shall never happen.\n";
 	
 	ret = convert(argv[1]);
 	
